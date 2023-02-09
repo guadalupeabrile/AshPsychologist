@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "avatar": "team/avatar-1.jpg",
+    "name": "Terry",
+    "role": "Any description",
+    "text": "I've worked with Ash for about 5 months and we've kicked so many goals, it's hard to mention just 1!"
+  },
+  {
+    "id": 2,
+    "avatar": "team/avatar-2.jpg",
+    "name": "Nicki",
+    "role": "Description",
+    "text": "I had a breakdown a few months ago and have been struggling to find meaning in my life. Ash helped me to find a career path that is fulfilling."
+  }
+]

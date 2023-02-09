@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "test-tube-alt",
+    "title": "Lacking motivation and feeling stuck",
+    "text": ""
+  },
+  {
+    "id": 2,
+    "icon": "computer",
+    "title": "Lacking purpose",
+    "text": ""
+  },
+  {
+    "id": 3,
+    "icon": "headphone-alt",
+    "title": "Strugglinh with a breakup",
+    "text": ""
+  },
+  {
+    "id": 4,
+    "icon": "headphone-alt",
+    "title": "Recovering from a breakdown",
+    "text": ""
+  }
+]
