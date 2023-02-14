@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -6,7 +6,7 @@ import HeadingSection from "../HeadingSection/HeadingSection";
 import TestimonialItem from "./TestimonialItem";
 import testimonialsData from "../../data/Testimonials/testimonials-data.json";
 
-const TestimonialsTwo = ({ title, tagline}) => {
+const TestimonialsTwo = forwardRef(({ title, tagline }, ref) => {
   const settings = {
     dots: true,
     centerMode: true,
@@ -17,7 +17,7 @@ const TestimonialsTwo = ({ title, tagline}) => {
     className: "slick testimonial",
   };
   return (
-    <section className="dark-bg">
+    <section className="dark-bg" ref={ref}>
       <div className="container">
         <div className="row">
           <HeadingSection
@@ -42,9 +42,9 @@ const TestimonialsTwo = ({ title, tagline}) => {
             </Slider>
           </div>
         </div>
-        </div>
+      </div>
     </section>
   );
-};
+});
 
 export default TestimonialsTwo;

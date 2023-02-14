@@ -1,12 +1,12 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import dataTabs from "../../data/TabsIconSection/tabs-icon-section.json";
 import HeadingSection from "../HeadingSection/HeadingSection";
 import Icofont from "react-icofont";
 
-const TabsIconSection = ({ title, tagline, classes }) => {
+const TabsIconSection = forwardRef(({ title, tagline, classes }, ref) => {
   return (
-    <section className={classes || ""}>
+    <section className={classes || ""} ref={ref} >
       <div className="container">
         <div className="row">
           <HeadingSection title={title} tagline={tagline} />
@@ -31,6 +31,6 @@ const TabsIconSection = ({ title, tagline, classes }) => {
       </div>
     </section>
   );
-};
+});
 
 export default TabsIconSection;

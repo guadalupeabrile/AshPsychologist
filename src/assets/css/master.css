@@ -3968,7 +3968,7 @@ a.readmore>span {
 
 .footer-main {
   padding: 60px 0 60px;
-  background-color: #212121;
+  background-color: #212121b0;
   position: relative;
 }
 
@@ -3984,7 +3984,7 @@ a.readmore>span {
   right: 0;
   bottom: 0;
   top: 0;
-  background-image: url(../images/map-bg.png);
+  /* background-image: url(../images/map-bg.png); */
   background-size: contain;
   opacity: .8;
 }

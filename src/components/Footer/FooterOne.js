@@ -38,7 +38,6 @@ const FooterOne = () => (
           </div>
         </div>
       </div>
-      <FooterCopyright />
     </footer>
     <div className="footer-height" style={{ height: "463px" }}></div>
   </>

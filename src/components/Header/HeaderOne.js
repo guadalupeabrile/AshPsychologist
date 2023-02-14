@@ -80,7 +80,7 @@ const HeaderOne = ({ scrollToSection, type }) => {
             aria-expanded="false"
           >
             <Scrollspy
-              items={["home", "about", "service", "team", "project", "contact"]}
+              items={["welcome", "how", "isYou", "about", "testimonials", "contact"]}
               currentClassName="active"
               className="nav navbar-nav navbar-right nav-scrollspy-onepage"
               data-in="fadeInLeft"
@@ -88,7 +88,7 @@ const HeaderOne = ({ scrollToSection, type }) => {
               {dataNav.map((item) => (
                 <li key={item.id}>
                   <a
-                    href={item.link}
+                    // href={item.link}
                     onClick={(e) => scrollToSection(e, item.link)}
                   >
                     {item.title}

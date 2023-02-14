@@ -1,8 +1,8 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import serviceImg from "../../assets/images/startup-bg-right.jpg";
 
-const OurServicesTwo = ({ title, tagline }) => (
-  <section className="white-bg">
+const OurServicesTwo = forwardRef(({ title, tagline }, ref) => (
+  <section className="white-bg" ref={ref}>
     <div className="col-md-6 col-sm-4 bg-flex bg-flex-right">
       <div
         className="bg-flex-holder bg-flex-cover"
@@ -63,6 +63,6 @@ const OurServicesTwo = ({ title, tagline }) => (
       </div>
     </div>
   </section>
-);
+));
 
 export default OurServicesTwo;

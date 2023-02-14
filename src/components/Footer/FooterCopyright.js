@@ -4,9 +4,9 @@ import Icofont from "react-icofont";
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-6 col-xs-12">
+    <div className="container text-center">
+      <div>
+        <div className="text-center">
           <ul className="social-media">
             {dataSocial.filter((v, i) => i < 5).map((item) => (
               <li key={item.id}>

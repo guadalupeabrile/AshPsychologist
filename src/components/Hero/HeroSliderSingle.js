@@ -1,11 +1,11 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import parse from "html-react-parser";
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
 
-const HeroSliderSingle = ({ data }) => (
-  <section className="pt-0 pb-0">
+const HeroSliderSingle = forwardRef(({ data }, ref) => (
+  <section className="pt-0 pb-0" ref={ref}>
     <div className="slider-bg flexslider">
       <ul className="slides">
         <Swiper>
@@ -48,6 +48,6 @@ const HeroSliderSingle = ({ data }) => (
       </ul>
     </div>
   </section>
-);
+));
 
 export default HeroSliderSingle;
