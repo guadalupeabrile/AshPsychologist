@@ -3,7 +3,7 @@ import ContactFormFive from "./ContactFormFive";
 
 const ContactThree = forwardRef(({ }, ref) => {
   return (
-    <section className="contact-us dark-bg t-0" ref={ref}>
+    <section className="contact-us dark-bg t-0" ref={ref} id="contact" >
       <div className="container">
         <div className="text-center">
           <div>

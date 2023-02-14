@@ -78,11 +78,11 @@ const HeaderThree = ({ scrollToSection }) => {
               ))}
             </Scrollspy>
           </div>
-          <AttributeNav>
+          {/* <AttributeNav>
             <ul className="custom-search">
               <SearchItem showSearchForm={showSearchForm} />
             </ul>
-          </AttributeNav>
+          </AttributeNav> */}
         </div>
       </nav>
     </>

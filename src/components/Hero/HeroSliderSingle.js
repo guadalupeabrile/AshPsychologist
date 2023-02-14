@@ -5,7 +5,7 @@ import parse from "html-react-parser";
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
 
 const HeroSliderSingle = forwardRef(({ data }, ref) => (
-  <section className="pt-0 pb-0" ref={ref}>
+  <section className="pt-0 pb-0" ref={ref} id="welcome">
     <div className="slider-bg flexslider">
       <ul className="slides">
         <Swiper>

@@ -6,7 +6,7 @@ import Icofont from "react-icofont";
 
 const TabsIconSection = forwardRef(({ title, tagline, classes }, ref) => {
   return (
-    <section className={classes || ""} ref={ref} >
+    <section className={classes || ""} ref={ref} id="isYou" >
       <div className="container">
         <div className="row">
           <HeadingSection title={title} tagline={tagline} />
