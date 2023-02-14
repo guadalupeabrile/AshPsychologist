@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Loader from "./../../components/Loader/Loader";
 import dataStartup from "../../data/Slider/startup-business-data.json";
-import serviceOneImg from "../../assets/images/startup-bg-left.jpg";
+import serviceOneImg from "../../assets/images/img2.jpg";
 import HeaderOne from "../../components/Header/HeaderOne";
 import HeaderTwo from "../../components/Header/HeaderTwo";
 import HeaderThree from "../../components/Header/HeaderThree";
