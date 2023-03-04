@@ -3,11 +3,11 @@ import ContactFormFive from "./ContactFormFive";
 
 const ContactThree = forwardRef(({ }, ref) => {
   return (
-    <section className="contact-us dark-bg t-0" ref={ref} id="contact" >
+    <section className="contact-us t-0" ref={ref} id="contact" >
       <div className="container">
         <div className="text-center">
           <div>
-            <h3 className="white-color">Postal Location</h3>
+            <h3 className="">Postal Location</h3>
             <address>
               PO Box 16122 Toronto Eaton Centre,
               <br />
@@ -17,7 +17,7 @@ const ContactThree = forwardRef(({ }, ref) => {
               <br />
               <a href="mailto:#">alphadot@example.com</a>
             </address>
-            <h3 className="white-color">Global Location</h3>
+            <h3 className="r">Global Location</h3>
             <address>
               PO Box 16122 Toronto Eaton Centre,
               <br />
@@ -25,7 +25,7 @@ const ContactThree = forwardRef(({ }, ref) => {
               <br />
               <abbr title="Phone">P:</abbr> (+1) 613 555-0105
             </address>
-            <h3 className="white-color">Work Timings</h3>
+            <h3 className="">Work Timings</h3>
             <p>
               <span>Mon - Fri: 10am to 7pm</span> <br />
               <span>Sat : 8am to 12pm</span>

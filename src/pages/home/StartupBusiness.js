@@ -20,7 +20,8 @@ import FooterOne from "../../components/Footer/FooterOne";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import HeadingSection from "../../components/HeadingSection/HeadingSection";
 import TabsIconSection from "../../components/Tabs/TabsIconSection";
-import ContactThree from "../../components/ContactUs/ContactThree"
+import ContactThree from "../../components/ContactUs/ContactThree";
+import ContactFormArquitectur from "../../components/ContactUs/ContactArchitecture";
 
 const StartupBusiness = () => {
 
@@ -82,7 +83,11 @@ const StartupBusiness = () => {
       </Portfolio> */}
       <TestimonialsTwo ref={testimonials} title="Testimonials" tagline="Empowered clients" />
       {/* <BlogSlider /> */}
-      <ContactThree ref={contact} />
+      <ContactFormArquitectur
+        ref={contact}
+        title="Contact Me!"
+        tagline="Hey" />
+      <ContactThree />
       {/* <FooterOne ref={contact} /> */}
     </Loader >
   );
