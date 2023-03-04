@@ -17,13 +17,13 @@ const TestimonialsTwo = forwardRef(({ title, tagline }, ref) => {
     className: "slick testimonial",
   };
   return (
-    <section className="dark-bg" ref={ref} id="testimonials">
+    <section className="" ref={ref} id="testimonials">
       <div className="container">
         <div className="row">
           <HeadingSection
             title={title}
             tagline={tagline}
-            classAppend="white-color"
+            classAppend=""
           />
         </div>
         <div className="row">

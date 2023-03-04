@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import serviceImg from "../../assets/images/startup-bg-right.jpg";
 
 const OurServicesTwo = forwardRef(({ title, tagline }, ref) => (
-  <section className="white-bg" ref={ref} id="about" >
+  <section className="" ref={ref} id="about" >
     <div className="col-md-6 col-sm-4 bg-flex bg-flex-right">
       <div
         className="bg-flex-holder bg-flex-cover"
