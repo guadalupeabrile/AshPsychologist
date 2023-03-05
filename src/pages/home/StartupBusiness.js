@@ -77,7 +77,11 @@ const StartupBusiness = () => {
         serviceImg={serviceOneImg}
       />
       <TabsIconSection ref={isYou} title="Is this you?" tagline="Let's work together" />
-      <OurServicesTwo ref={about} title="About Ash" tagline="Part of your success" />
+      <OurServicesTwo
+        ref={about}
+        scrollToSection={scrollToSection}
+        title="About Ash"
+        tagline="Part of your success" />
       {/* <Portfolio columns="4" layout="wide" filter="true">
         <HeadingSection title="Our Work" />
       </Portfolio> */}

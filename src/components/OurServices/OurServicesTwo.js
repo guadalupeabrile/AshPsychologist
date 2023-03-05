@@ -1,7 +1,8 @@
 import React, { forwardRef } from "react";
 import serviceImg from "../../assets/images/startup-bg-right.jpg";
+import Scrollspy from "react-scrollspy";
 
-const OurServicesTwo = forwardRef(({ title, tagline }, ref) => (
+const OurServicesTwo = forwardRef(({ title, tagline, scrollToSection }, ref) => (
   <section className="" ref={ref} id="about" >
     <div className="col-md-6 col-sm-4 bg-flex bg-flex-right">
       <div
@@ -53,12 +54,17 @@ const OurServicesTwo = forwardRef(({ title, tagline }, ref) => (
           data-aos-delay={400}
           data-aos-duration={1000}
         >
-          <a
-            href={`${process.env.PUBLIC_URL}/service-simple`}
-            className="btn btn-color btn-circle"
+          <Scrollspy
           >
-            Contact Me!
-          </a>
+
+            <a
+              className="btn btn-color btn-circle"
+              onClick={(e) => scrollToSection(e, "contact")}
+            >
+              Contact Me!
+            </a>
+
+          </Scrollspy>
         </p>
       </div>
     </div>
