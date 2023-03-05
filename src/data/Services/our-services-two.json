@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "icon": "test-tube-alt",
+    "icon": "icofont-wave",
     "title": "Change Career",
     "title": "Change Career",
     "text": ""
   },
   {
     "id": 2,
-    "icon": "computer",
+    "icon": "wave",
     "title": "Deepen Relationships",
     "text": ""
   },
   {
     "id": 3,
-    "icon": "headphone-alt",
+    "icon": "wave",
     "title": "Feeling burnout",
     "text": ""
   },
   {
     "id": 4,
-    "icon": "headphone-alt",
+    "icon": "wave",
     "title": "Lacking time and energy to do the things you want to do",
     "text": ""
   },
   {
     "id": 5,
-    "icon": "headphone-alt",
+    "icon": "wave",
     "title": "Living with depression",
     "text": ""
   }

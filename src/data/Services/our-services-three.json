@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "icon": "test-tube-alt",
+    "icon": "wave",
     "title": "Lacking motivation and feeling stuck",
     "text": ""
   },
   {
     "id": 2,
-    "icon": "computer",
+    "icon": "wave",
     "title": "Lacking purpose",
     "text": ""
   },
   {
     "id": 3,
-    "icon": "headphone-alt",
+    "icon": "wave",
     "title": "Strugglinh with a breakup",
     "text": ""
   },
   {
     "id": 4,
-    "icon": "headphone-alt",
+    "icon": "wave",
     "title": "Recovering from a breakdown",
     "text": ""
   }
