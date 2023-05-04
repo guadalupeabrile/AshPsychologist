@@ -1,20 +1,48 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "emailjs-com";
+import Popup from 'reactjs-popup';
 
 const ContactFormThree = () => {
+
+  const form = useRef();
+
   const [inputs, setInputs] = useState({});
+  const [statusMessage, setStatusMessage] = useState("Please complete form!");
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setInputs({ ...inputs, [name]: value });
   };
 
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_n33h1jc', 'template_roa6cr7', e.target, 'gH8gPEVte3skgnXsY')
+      .then((result) => {
+        console.log(result.text);
+        if (inputs.name != "" && inputs.email != "" && inputs.message != "") {
+          setStatusMessage("Thanks for contacting me! I'll be in touch soon.");
+        }
+        setInputs({
+          name: "",
+          email: "",
+          message: "",
+        });
+      }, (error) => {
+        console.log(error.text);
+        setStatusMessage(`${error.text} happened`);
+      });
+  };
+
+
   return (
+
     <form
       name="contact-form"
       id="contact-form"
-      action="php/contact.php"
-      method="POST"
+      ref={form}
       className="app-form"
+      onSubmit={sendEmail}
     >
       <div className="messages"></div>
       <div className="row">
@@ -50,7 +78,7 @@ const ContactFormThree = () => {
             <input
               type="email"
               name="email"
-              className="form-control"
+              className="form-control "
               id="email"
               placeholder="Your Email"
               required="required"
@@ -89,13 +117,20 @@ const ContactFormThree = () => {
         data-aos-delay={100}
         data-aos-duration={700}
       >
-        <button
-          type="submit"
-          name="submit"
-          className="btn btn-color btn-circle"
-        >
-          Send Message
-        </button>
+        <Popup
+          trigger={
+            <button
+              type="submit"
+              name="submit"
+              className="btn btn-color btn-circle"
+              value="Send"
+            >
+              Send Message
+            </button>
+          }
+          position="right center">
+          {statusMessage}
+        </Popup>
       </div>
     </form>
   );

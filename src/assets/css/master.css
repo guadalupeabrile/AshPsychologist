@@ -285,11 +285,10 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: none;
+  border-color: var(--main-color);
   box-shadow: none;
   outline: 0 none;
 }
-
 
 section {
   padding-top: 120px;
@@ -4219,7 +4218,7 @@ ul.footer-gallery li img {
 }
 
 .form-control:focus {
-  border-color: var(--main-color);
+  border-color: #2c5d8f;
 }
 
 .contact-us p,
@@ -6953,7 +6952,7 @@ form.register {
 }
 
 .app-form .form-control:focus {
-  border-color: #f44336;
+  border-color: var(--main-color);
 }
 
 

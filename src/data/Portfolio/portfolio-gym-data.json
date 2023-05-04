@@ -3,24 +3,103 @@
     "id": 1,
     "title": "Yoga for Parents",
     "category": "12 class collection",
-    "image": "portfolio/grid/9.jpg",
+    "image": "portfolio/grid/1.jpg",
     "link": "portfolio/grid/9.jpg",
-    "groups": ["all", "print", "branding"]
+    "groups": [
+      "all",
+      "print",
+      "branding"
+    ]
   },
   {
     "id": 2,
     "title": "Yoga for Climbers",
     "category": "18 class collection",
-    "image": "portfolio/grid/10.jpg",
+    "image": "portfolio/grid/2.jpg",
     "link": "portfolio/grid/9.jpg",
-    "groups": ["all", "branding", "web"]
+    "groups": [
+      "all",
+      "branding",
+      "web"
+    ]
   },
   {
     "id": 3,
     "title": "Live a Life of Joy",
     "category": "10 class collection",
-    "image": "portfolio/grid/11.jpg",
+    "image": "portfolio/grid/3.jpg",
     "link": "portfolio/grid/9.jpg",
-    "groups": ["all", "branding"]
+    "groups": [
+      "all",
+      "branding"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Yoga for Climbers",
+    "category": "18 class collection",
+    "image": "portfolio/grid/4.jpg",
+    "link": "portfolio/grid/9.jpg",
+    "groups": [
+      "all",
+      "branding",
+      "web"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Live a Life of Joy",
+    "category": "10 class collection",
+    "image": "portfolio/grid/5.jpg",
+    "link": "portfolio/grid/9.jpg",
+    "groups": [
+      "all",
+      "branding"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Live a Life of Joy",
+    "category": "10 class collection",
+    "image": "portfolio/grid/6.jpg",
+    "link": "portfolio/grid/9.jpg",
+    "groups": [
+      "all",
+      "branding"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Yoga for Climbers",
+    "category": "18 class collection",
+    "image": "portfolio/grid/7.jpg",
+    "link": "portfolio/grid/9.jpg",
+    "groups": [
+      "all",
+      "branding",
+      "web"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Live a Life of Joy",
+    "category": "10 class collection",
+    "image": "portfolio/grid/8.jpg",
+    "link": "portfolio/grid/9.jpg",
+    "groups": [
+      "all",
+      "branding"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Live a Life of Joy",
+    "category": "10 class collection",
+    "image": "portfolio/grid/1.jpg",
+    "link": "portfolio/grid/9.jpg",
+    "groups": [
+      "all",
+      "branding"
+    ]
   }
 ]

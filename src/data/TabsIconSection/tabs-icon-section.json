@@ -3,7 +3,7 @@
     "id": 1,
     "icon": "multimedia",
     "title": "",
-    "text": "I feel pretty shit and I am a bit of a funk, how do I get myself out of this?"
+    "text": "I feel pretty shit and I am in a bit of a funk, how do I get myself out of this?"
   },
   {
     "id": 2,
@@ -24,21 +24,27 @@
     "text": "I don't feel like I have a purpose."
   },
   {
-    "id": 4,
+    "id": 5,
     "icon": "globe-alt",
     "title": "",
     "text": "I don't feel motivated to do anything at the moment, how do I change this?"
   },
   {
-    "id": 4,
+    "id": 6,
     "icon": "globe-alt",
     "title": "",
     "text": "I want a deeper relationship with my partner and friends, how do I do this?"
   },
   {
-    "id": 4,
+    "id": 7,
     "icon": "globe-alt",
     "title": "",
     "text": "I suffer from anxiety, it's soul crushing and it stops me from doing the things I love. "
+  },
+  {
+    "id": 8,
+    "icon": "globe-alt",
+    "title": "",
+    "text": "I'm burnt out from my job and don't know what to do about it"
   }
 ]

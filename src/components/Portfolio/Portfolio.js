@@ -20,7 +20,7 @@ const Portfolio = forwardRef(
           })
         );
       }
-      
+
     }, []);
 
     const filterElements = (evt) => {
@@ -75,20 +75,8 @@ const Portfolio = forwardRef(
               >
                 {items
                   ? dataPortfolio
-                      .filter((v, i) => i < items)
-                      .map((item, i) => (
-                        <PortfolioItem
-                          key={item.id}
-                          title={item.title}
-                          category={item.category}
-                          image={item.image}
-                          groups={item.groups}
-                          space={space ? "true" : "false"}
-                          columns={columns}
-                          openLightbox={openLightbox}
-                        />
-                      ))
-                  : dataPortfolio.map((item, i) => (
+                    .filter((v, i) => i < items)
+                    .map((item, i) => (
                       <PortfolioItem
                         key={item.id}
                         title={item.title}
@@ -99,7 +87,19 @@ const Portfolio = forwardRef(
                         columns={columns}
                         openLightbox={openLightbox}
                       />
-                    ))}
+                    ))
+                  : dataPortfolio.map((item, i) => (
+                    <PortfolioItem
+                      key={item.id}
+                      title={item.title}
+                      category={item.category}
+                      image={item.image}
+                      groups={item.groups}
+                      space={space ? "true" : "false"}
+                      columns={columns}
+                      openLightbox={openLightbox}
+                    />
+                  ))}
               </div>
               {isOpen && (
                 <Lightbox

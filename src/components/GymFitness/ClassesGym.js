@@ -1,76 +1,41 @@
 import React, { forwardRef, useState } from "react";
-import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import dataPortfolio from "../../data/Portfolio/portfolio-gym-data.json";
 import Icofont from "react-icofont";
 
 const classNameesGym = forwardRef((props, ref) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [photo, setPhoto] = useState(0);
-
-  const closeLightbox = () => {
-    setIsOpen(false);
-  };
-  const openLightbox = (e, photo) => {
-    e.preventDefault();
-    setPhoto(photo);
-    setIsOpen(true);
-  };
 
   return (
-    <section className="grey-bg" id="classes" ref={ref}>
+    <section id="classes" ref={ref}>
       <div className="container">
-        <div className="row">
-          <div className="col-sm-8 section-heading">
-            <h2 className="font-400 cardo-font">Our classes</h2>
+        <div className="row pb-5">
+          <div className="col-sm-8 section-heading py-2">
+            <h2 className="font-400 ">Is this you?</h2>
+            <h4 className="text-uppercase mb-20">- Let's work together -</h4>
           </div>
         </div>
       </div>
       <div className="container">
         <div className="row">
           <div className="portfolio-container text-center">
-            <ul id="portfolio-grid" className="three-column hover-two">
+            <ul id="portfolio-grid" className="three-column">
               {dataPortfolio.map((item) => (
                 <li
                   className="portfolio-item gutter-space"
                   data-groups='["all", "print", "branding"]'
                   key={item.id}
                 >
-                  <div className="portfolio gallery-image-hover">
-                    <div className="dark-overlay"></div>
+                  <div className="portfolio">
+
                     <img
                       src={require("../../assets/images/" + item.image)}
                       alt=""
                     />
-                    <div className="portfolio-wrap">
-                      <div className="portfolio-description">
-                        <h3 className="portfolio-title">{item.title}</h3>
-                        <a href={process.env.PUBLIC_URL} className="links">
-                          {item.category}
-                        </a>
-                      </div>
-                      <ul className="portfolio-details">
-                        <li>
-                          <a
-                            className="alpha-lightbox"
-                            href={item.link}
-                            onClick={(e) => openLightbox(e, item.image)}
-                          >
-                            <Icofont icon="search-1" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
+
                   </div>
                 </li>
               ))}
             </ul>
-            {isOpen && (
-              <Lightbox
-                mainSrc={require("../../assets/images/" + photo)}
-                onCloseRequest={() => closeLightbox()}
-              />
-            )}
           </div>
         </div>
       </div>

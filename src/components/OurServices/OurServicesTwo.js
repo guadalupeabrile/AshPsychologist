@@ -30,7 +30,7 @@ const OurServicesTwo = forwardRef(({ title, tagline, scrollToSection }, ref) => 
         </h4>
         <div data-aos={"fade-up"} data-aos-delay={300} data-aos-duration={1000}>
           <p className="mt-20">
-            Ash has experiencing with International clients who are on a path to recovery. Some of them lack purpose in their career, are challenged with depression, are struggling with a divorce or struggle to find the motivation to take back control of their life. Others want to find more depth in their relationships with friends and family.
+            Ash has experience with clients who are on a path to recovery. Some of them lack purpose in their career, are challenged with depression, they might be struggling with a divorce or they struggle to find the motivation to take back control of their life. Others want to find more depth in their relationships with friends or family or perhaps you have psychosocial disability and need support navigating the challenges that come with it.
           </p>
           <p>
             Ash has an empathetic approach, he is sensitive to your needs and holds your hand whilst he walks with you on your path to recovery. It can be a scary journey, one that he knows too well. He has experienced loss, depression, career changes, relationship breakups and loss of identity and knows how to take back control of your life when it all falls apart. He has years of experience mentoring and coaching high performing individuals and also has extensive experience working with individuals who are on the NDIS.
@@ -39,7 +39,7 @@ const OurServicesTwo = forwardRef(({ title, tagline, scrollToSection }, ref) => 
             Ash is often found at the beach surfing, socialising with his friends, reading a book or spending time with his partner.
           </p>
           <p>
-            As your life coach, I will help you to to build a better and more meaningful life.
+            As your recovery coach, I will help you to to build a better and more meaningful life.
           </p>
           <p>
             We will explore what's holding you back, who you want to be and how we're going to get you there. I'll be by your side, helping you to navigate this wonderful journey that you're about to embark on.
@@ -56,14 +56,12 @@ const OurServicesTwo = forwardRef(({ title, tagline, scrollToSection }, ref) => 
         >
           <Scrollspy
           >
-
             <a
               className="btn btn-color btn-circle"
               onClick={(e) => scrollToSection(e, "contact")}
             >
               Contact Me!
             </a>
-
           </Scrollspy>
         </p>
       </div>

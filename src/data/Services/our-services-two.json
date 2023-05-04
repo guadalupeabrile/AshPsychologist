@@ -2,32 +2,31 @@
   {
     "id": 1,
     "icon": "icofont-wave",
-    "title": "Change Career",
-    "title": "Change Career",
+    "title": "Forge a new career path",
     "text": ""
   },
   {
     "id": 2,
     "icon": "wave",
-    "title": "Deepen Relationships",
+    "title": "Lacking motivation and feeling stuck",
     "text": ""
   },
   {
     "id": 3,
     "icon": "wave",
-    "title": "Feeling burnout",
+    "title": "Build better relationships",
     "text": ""
   },
   {
     "id": 4,
     "icon": "wave",
-    "title": "Lacking time and energy to do the things you want to do",
+    "title": "Lacking purpose",
     "text": ""
   },
   {
     "id": 5,
     "icon": "wave",
-    "title": "Living with depression",
+    "title": "Feeling burnt out",
     "text": ""
   }
 ]

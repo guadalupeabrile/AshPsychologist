@@ -22,6 +22,7 @@ import HeadingSection from "../../components/HeadingSection/HeadingSection";
 import TabsIconSection from "../../components/Tabs/TabsIconSection";
 import ContactThree from "../../components/ContactUs/ContactThree";
 import ContactFormArquitectur from "../../components/ContactUs/ContactArchitecture";
+import ClassesGym from "../../components/GymFitness/ClassesGym";
 
 const StartupBusiness = () => {
 
@@ -67,21 +68,26 @@ const StartupBusiness = () => {
     <Loader>
       <HeaderThree scrollToSection={scrollToSection} />
       <HeroSliderSingle ref={welcome} data={dataCorporate} />
-      <Welcome title="Hi, I'm Ash" tagline="Empowering you to become your best version">
-        Life can be overwhelming. I empower my clients to take back control of their lives and figure out what they want and how they are going to get it.
+      <Welcome title="Hi, I'm Ash" tagline="Recovery Coach">
+        Life can be overwhelming. I work with my clients to take back control of their lives and figure out what they need and how they're goig to get it.
       </Welcome>
       <OurServices
         ref={how}
         title="How can I help?"
-        tagline="We'll work together to set clear goals, figure out what's holding you back and work out how to move through challenges that arise."
+        tagline="We'll work together to set clear goals, figure out what's holding you back and navigate any challenges that arise along the way."
         serviceImg={serviceOneImg}
       />
-      <TabsIconSection ref={isYou} title="Is this you?" tagline="Let's work together" />
+      <ClassesGym
+        ref={isYou}
+        title='Is this you?'
+        tagline="Let's work together"
+      />
+      {/* <TabsIconSection ref={isYou} title="Is this you?" tagline="Let's work together" /> */}
       <OurServicesTwo
         ref={about}
         scrollToSection={scrollToSection}
         title="About Ash"
-        tagline="Part of your success" />
+        tagline="" />
       {/* <Portfolio columns="4" layout="wide" filter="true">
         <HeadingSection title="Our Work" />
       </Portfolio> */}
