@@ -46,6 +46,9 @@
   "devDependencies": {
     "react-scripts": "^5.0.1"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
