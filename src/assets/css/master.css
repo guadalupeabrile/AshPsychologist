@@ -382,7 +382,7 @@ nav .logo>a {
 }
 
 nav.bootsnav.navbar-sidebar ul.nav {
-  margin: 0 0 30px 0;
+  margin: 30px 0 30px 0;
 }
 
 /*=============================================
@@ -7300,7 +7300,7 @@ ul.cart-list>li.total {
 }
 
 nav.navbar {
-  padding: 0;
+  padding: auto;
 }
 
 .navbar-toggler:focus,
@@ -7637,7 +7637,7 @@ ul {
 
 @media only screen and (max-width: 576px) {
   .navbar .container {
-    justify-content: space-around;
+    justify-content: left;
   }
 
   nav.navbar.bootsnav .navbar-nav>li {

@@ -54,9 +54,9 @@ const HeaderThree = ({ scrollToSection }) => {
           >
             <Icofont icon="navigation-menu" />
           </button>
-          <MainLogo showMenu={showMenu} />
+          {/* <MainLogo showMenu={showMenu} /> */}
           <div
-            className="navbar-collapse collapse"
+            className="navbar-collapse collapse my-auto"
             id="navbar-menu"
             aria-expanded="false"
           >
@@ -70,7 +70,10 @@ const HeaderThree = ({ scrollToSection }) => {
                 <li key={item.id}>
                   <a
                     // href={item.link}
-                    onClick={(e) => scrollToSection(e, item.link)}
+                    onClick={(e) => {
+                      scrollToSection(e, item.link);
+                      showMenu()
+                    }}
                   >
                     {item.title}
                   </a>
