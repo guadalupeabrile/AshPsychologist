@@ -79,7 +79,7 @@ const StartupBusiness = () => {
       />
       <ClassesGym
         ref={isYou}
-        title='Is this you?'
+        title="Is this what you're going through?"
         tagline="Let's work together"
       />
       {/* <TabsIconSection ref={isYou} title="Is this you?" tagline="Let's work together" /> */}

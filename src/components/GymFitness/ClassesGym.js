@@ -10,7 +10,7 @@ const classNameesGym = forwardRef((props, ref) => {
       <div className="container">
         <div className="row pb-5">
           <div className="col-sm-8 section-heading py-2">
-            <h2 className="font-400 ">Is this you?</h2>
+            <h2 className="font-400 ">Is this what you're going through?</h2>
             <h4 className="text-uppercase mb-20">- Let's work together -</h4>
           </div>
         </div>
