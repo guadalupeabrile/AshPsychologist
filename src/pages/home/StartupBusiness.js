@@ -69,7 +69,7 @@ const StartupBusiness = () => {
       <HeaderThree scrollToSection={scrollToSection} />
       <HeroSliderSingle ref={welcome} data={dataCorporate} />
       <Welcome title="Hi, I'm Ash" tagline="Recovery Coach">
-        Life can be overwhelming. I work with my clients to take back control of their lives and figure out what they need and how they're goig to get it.
+        Life can be overwhelming. I work with my clients to take back control of their lives and figure out what they need and how they're going to get it.
       </Welcome>
       <OurServices
         ref={how}
