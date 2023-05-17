@@ -96,8 +96,8 @@ const StartupBusiness = () => {
       <ContactFormArquitectur
         ref={contact}
         title="Contact Me!"
-        tagline="Hey" />
-      <ContactThree />
+        tagline="">
+      </ContactFormArquitectur>
       {/* <FooterOne ref={contact} /> */}
     </Loader >
   );

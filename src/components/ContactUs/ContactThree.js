@@ -7,29 +7,12 @@ const ContactThree = forwardRef(({ }, ref) => {
       <div className="container">
         <div className="text-center">
           <div>
-            <h3 className="">Postal Location</h3>
+            <h3 className="">Contact Info</h3>
             <address>
-              PO Box 16122 Toronto Eaton Centre,
+              <abbr title="Phone">Ph:</abbr> (+61) 499 118-097
               <br />
-              220 The PATH Toronto, ON M5B 2H1, Canada
-              <br />
-              <abbr title="Phone">P:</abbr> (+1) 613 555-0105
-              <br />
-              <a href="mailto:#">alphadot@example.com</a>
+              <a href="mailto:#">ashrecoverycoach@gmail.com</a>
             </address>
-            <h3 className="r">Global Location</h3>
-            <address>
-              PO Box 16122 Toronto Eaton Centre,
-              <br />
-              220 The PATH Toronto, ON M5B 2H1, Canada
-              <br />
-              <abbr title="Phone">P:</abbr> (+1) 613 555-0105
-            </address>
-            <h3 className="">Work Timings</h3>
-            <p>
-              <span>Mon - Fri: 10am to 7pm</span> <br />
-              <span>Sat : 8am to 12pm</span>
-            </p>
           </div>
         </div>
       </div>
