@@ -12,6 +12,7 @@ import dataCorporate from "../../data/Slider/corporate-business-data.json";
 import HeroSliderSingle from "../../components/Hero/HeroSliderSingle";
 import Welcome from "../../components/WelcomeSection/Welcome";
 import OurServices from "../../components/OurServices/OurServices";
+import OurServicesFour from "../../components/OurServices/OurServicesFour";
 import CounterOne from "../../components/Counters/CounterOne";
 import OurServicesTwo from "../../components/OurServices/OurServicesTwo";
 import TestimonialsTwo from "../../components/Testimonials/TestimonialsTwo";
@@ -83,6 +84,12 @@ const StartupBusiness = () => {
         tagline="Let's work together"
       />
       {/* <TabsIconSection ref={isYou} title="Is this you?" tagline="Let's work together" /> */}
+      <OurServicesFour
+        ref={how}
+        title="Boys' Club"
+        tagline="Ash is passionate about supporting boys to grow into great men."
+        serviceImg={serviceOneImg}
+      />
       <OurServicesTwo
         ref={about}
         scrollToSection={scrollToSection}
