@@ -18,7 +18,7 @@ const classNameesGym = forwardRef((props, ref) => {
       <div className="container">
         <div className="row">
           <div className="portfolio-container text-center">
-            <ul id="portfolio-grid" className="three-column">
+            <ul id="portfolio-grid" className="four-column">
               {dataPortfolio.map((item) => (
                 <li
                   className="portfolio-item gutter-space"

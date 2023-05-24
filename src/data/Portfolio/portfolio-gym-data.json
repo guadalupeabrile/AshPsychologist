@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Yoga for Parents",
     "category": "12 class collection",
-    "image": "portfolio/grid/1.jpg",
+    "image": "portfolio/grid/1.png",
     "link": "portfolio/grid/9.jpg",
     "groups": [
       "all",
@@ -15,7 +15,7 @@
     "id": 2,
     "title": "Yoga for Climbers",
     "category": "18 class collection",
-    "image": "portfolio/grid/2.jpg",
+    "image": "portfolio/grid/2.png",
     "link": "portfolio/grid/9.jpg",
     "groups": [
       "all",
@@ -27,7 +27,7 @@
     "id": 3,
     "title": "Live a Life of Joy",
     "category": "10 class collection",
-    "image": "portfolio/grid/3.jpg",
+    "image": "portfolio/grid/3.png",
     "link": "portfolio/grid/9.jpg",
     "groups": [
       "all",
@@ -38,7 +38,7 @@
     "id": 4,
     "title": "Yoga for Climbers",
     "category": "18 class collection",
-    "image": "portfolio/grid/4.jpg",
+    "image": "portfolio/grid/4.png",
     "link": "portfolio/grid/9.jpg",
     "groups": [
       "all",
@@ -50,7 +50,7 @@
     "id": 5,
     "title": "Live a Life of Joy",
     "category": "10 class collection",
-    "image": "portfolio/grid/5.jpg",
+    "image": "portfolio/grid/5.png",
     "link": "portfolio/grid/9.jpg",
     "groups": [
       "all",
@@ -61,7 +61,7 @@
     "id": 6,
     "title": "Live a Life of Joy",
     "category": "10 class collection",
-    "image": "portfolio/grid/6.jpg",
+    "image": "portfolio/grid/6.png",
     "link": "portfolio/grid/9.jpg",
     "groups": [
       "all",
@@ -72,7 +72,7 @@
     "id": 7,
     "title": "Yoga for Climbers",
     "category": "18 class collection",
-    "image": "portfolio/grid/7.jpg",
+    "image": "portfolio/grid/7.png",
     "link": "portfolio/grid/9.jpg",
     "groups": [
       "all",
@@ -84,18 +84,7 @@
     "id": 8,
     "title": "Live a Life of Joy",
     "category": "10 class collection",
-    "image": "portfolio/grid/8.jpg",
-    "link": "portfolio/grid/9.jpg",
-    "groups": [
-      "all",
-      "branding"
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Live a Life of Joy",
-    "category": "10 class collection",
-    "image": "portfolio/grid/1.jpg",
+    "image": "portfolio/grid/8.png",
     "link": "portfolio/grid/9.jpg",
     "groups": [
       "all",
