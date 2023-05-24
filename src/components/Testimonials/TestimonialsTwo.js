@@ -34,7 +34,6 @@ const TestimonialsTwo = forwardRef(({ title, tagline }, ref) => {
                   key={testimonial.id}
                   avatar={testimonial.avatar}
                   name={testimonial.name}
-                  role={testimonial.role}
                 >
                   {testimonial.text}
                 </TestimonialItem>
