@@ -7,7 +7,7 @@ const ContactFormThree = () => {
   const form = useRef();
 
   const [inputs, setInputs] = useState({});
-  const [statusMessage, setStatusMessage] = useState("Please complete form!");
+  const [statusMessage, setStatusMessage] = useState("Sending...");
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
