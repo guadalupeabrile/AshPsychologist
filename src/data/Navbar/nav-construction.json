@@ -16,16 +16,21 @@
   },
   {
     "id": 4,
+    "title": "The Boys' Club",
+    "link": "boys"
+  },
+  {
+    "id": 5,
     "title": "About Ash",
     "link": "about"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Testimonials",
     "link": "testimonials"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Contact",
     "link": "contact"
   }

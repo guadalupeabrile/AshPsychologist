@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import Loader from "./../../components/Loader/Loader";
 import dataStartup from "../../data/Slider/startup-business-data.json";
 import serviceOneImg from "../../assets/images/img2.jpg";
+import serviceTwoImg from "../../assets/images/boys-section.png";
 import HeaderOne from "../../components/Header/HeaderOne";
 import HeaderTwo from "../../components/Header/HeaderTwo";
 import HeaderThree from "../../components/Header/HeaderThree";
@@ -36,6 +37,7 @@ const StartupBusiness = () => {
   const welcome = useRef();
   const how = useRef();
   const isYou = useRef();
+  const boys = useRef();
   const about = useRef();
   const testimonials = useRef();
   const contact = useRef();
@@ -51,6 +53,9 @@ const StartupBusiness = () => {
         break;
       case "isYou":
         isYou.current.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "boys":
+        boys.current.scrollIntoView({ behavior: "smooth" });
         break;
       case "about":
         about.current.scrollIntoView({ behavior: "smooth" });
@@ -85,10 +90,10 @@ const StartupBusiness = () => {
       />
       {/* <TabsIconSection ref={isYou} title="Is this you?" tagline="Let's work together" /> */}
       <OurServicesFour
-        ref={how}
+        ref={boys}
         title="Boys' Club"
         tagline="Ash is passionate about supporting boys to grow into great men."
-        serviceImg={serviceOneImg}
+        serviceImg={serviceTwoImg}
       />
       <OurServicesTwo
         ref={about}

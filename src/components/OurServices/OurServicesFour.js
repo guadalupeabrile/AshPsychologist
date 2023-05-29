@@ -4,7 +4,7 @@ import dataServices2 from "../../data/Services/our-services4-three.json";
 import ServiceBox from "./ServiceBox";
 
 const OurServices = forwardRef(({ serviceImg, title, tagline, font }, ref) => (
-  <section id="how" ref={ref}>
+  <section id="boys" ref={ref}>
     <div className="col-md-6 col-sm-4 bg-flex bg-flex-left">
       <div
         className="bg-flex-holder bg-flex-cover"
