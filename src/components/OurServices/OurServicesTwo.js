@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import serviceImg from "../../assets/images/startup-bg-right.jpg";
+import serviceImg from "../../assets/images/ash.JPG";
 import Scrollspy from "react-scrollspy";
 
 const OurServicesTwo = forwardRef(({ title, tagline, scrollToSection }, ref) => (
