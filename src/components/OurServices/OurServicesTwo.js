@@ -30,22 +30,16 @@ const OurServicesTwo = forwardRef(({ title, tagline, scrollToSection }, ref) => 
         </h4>
         <div data-aos={"fade-up"} data-aos-delay={300} data-aos-duration={1000} >
           <p className="mt-20 text-dark">
-            Ash has experience with clients who are on a path to recovery. Some of them lack purpose in their career, are challenged with depression, they might be struggling with a divorce or they struggle to find the motivation to take back control of their life. Others want to find more depth in their relationships with friends or family or perhaps you have psychosocial disability and need support navigating the challenges that come with it.
+            Ash has extensive experience supporting others who are on a path to recovery. He works collaboratively with his clients, helping them to achieve optimal mental health and spiritual well being.
           </p>
           <p className="text-dark">
-            Ash has an empathetic approach, he is sensitive to your needs and holds your hand while he walks with you on your path to recovery. It can be a scary journey, one that he knows too well. He has experienced loss, depression, career changes, relationship breakups and loss of identity and knows how to take back control of your life when it all falls apart. He has years of experience mentoring and coaching high performing individuals and also has extensive experience working with individuals who are on the NDIS.
+            It can be a scary journey, and Ash's lived experience along with his gentle approach, help to unshackle the chains that hold his clients back.
           </p>
           <p className="text-dark">
-            Ash is often found at the beach surfing, socialising with his friends, reading a book or spending time with his partner.
+            Ash has spent the last decade coaching high performing teams, mentoring boys with behaviour challenges, running workshops focused on emotional intelligence and supporting individuals with psychosocial challenges. He also runs men's groups, online and in-person, focused on emotional and spiritual growth.
           </p>
           <p className="text-dark">
-            As your recovery coach, I will help you to to build a better and more meaningful life.
-          </p>
-          <p className="text-dark">
-            We will explore what's holding you back, who you want to be and how we're going to get you there. I'll be by your side, helping you to navigate this wonderful journey that you're about to embark on.
-          </p>
-          <p className="text-dark">
-            You'll learn to tap into your intuition and emotional navigation system and use this to get what you want.
+            Ash is a certified life coach and he has completed his Bachelor of Psychological Science. He has also completed leadership trainings and workshops embedded in rites of passage for boys along with emotional training through Evryman.
           </p>
         </div>
         <p
