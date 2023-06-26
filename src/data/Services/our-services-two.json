@@ -2,31 +2,25 @@
   {
     "id": 1,
     "icon": "icofont-wave",
-    "title": "Forge a new career path",
+    "title": "I want to forge a new career path",
     "text": ""
   },
   {
     "id": 2,
     "icon": "wave",
-    "title": "Lacking motivation and feeling stuck",
+    "title": "I am lacking motivation and feeling very stuck",
     "text": ""
   },
   {
     "id": 3,
     "icon": "wave",
-    "title": "Build better relationships",
+    "title": "I'm struggling with a breakup",
     "text": ""
   },
   {
     "id": 4,
     "icon": "wave",
-    "title": "Lacking purpose",
-    "text": ""
-  },
-  {
-    "id": 5,
-    "icon": "wave",
-    "title": "Feeling burnt out",
+    "title": "I want to build better relationships",
     "text": ""
   }
 ]

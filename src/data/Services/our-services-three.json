@@ -2,31 +2,25 @@
   {
     "id": 1,
     "icon": "wave",
-    "title": "Struggling with a breakup",
+    "title": "I'm feeling depressed",
     "text": ""
   },
   {
     "id": 2,
     "icon": "wave",
-    "title": "Lacking time and energy to do the things you want to do",
+    "title": "I'm feeling burnt out",
     "text": ""
   },
   {
     "id": 3,
     "icon": "wave",
-    "title": "Recovering from a breakdown",
+    "title": "I'm living with a disability and need support.",
     "text": ""
   },
   {
     "id": 4,
     "icon": "wave",
-    "title": "Living with depression",
-    "text": ""
-  },
-  {
-    "id": 5,
-    "icon": "wave",
-    "title": "I'm living with a disability and need support.",
+    "title": "I'm lacking time and energy to do the things I want to do.",
     "text": ""
   }
 ]
