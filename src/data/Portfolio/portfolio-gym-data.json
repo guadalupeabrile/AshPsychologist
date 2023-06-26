@@ -67,28 +67,5 @@
       "all",
       "branding"
     ]
-  },
-  {
-    "id": 7,
-    "title": "Yoga for Climbers",
-    "category": "18 class collection",
-    "image": "portfolio/grid/7.png",
-    "link": "portfolio/grid/9.jpg",
-    "groups": [
-      "all",
-      "branding",
-      "web"
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Live a Life of Joy",
-    "category": "10 class collection",
-    "image": "portfolio/grid/8.png",
-    "link": "portfolio/grid/9.jpg",
-    "groups": [
-      "all",
-      "branding"
-    ]
   }
 ]
