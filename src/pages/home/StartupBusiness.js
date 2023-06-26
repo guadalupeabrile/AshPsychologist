@@ -75,8 +75,13 @@ const StartupBusiness = () => {
       <HeaderThree scrollToSection={scrollToSection} />
       <HeroSliderSingle ref={welcome} data={dataCorporate} />
       <Welcome title="Hi, I'm Ash" tagline="Recovery Coach">
-        Life can be overwhelming. I work with my clients to take back control of their lives and figure out what they need and how they're going to get it.
+        As a Recovery Coach, my mission is to empower you to take charge, figure out what truly makes you tick, and guide you towards living the life that you want.
       </Welcome>
+      <OurServicesTwo
+        ref={about}
+        scrollToSection={scrollToSection}
+        title="About Ash"
+        tagline="" />
       <OurServices
         ref={how}
         title="How can I help?"
@@ -95,11 +100,6 @@ const StartupBusiness = () => {
         tagline="Ash is passionate about supporting boys to grow into great men."
         serviceImg={serviceTwoImg}
       />
-      <OurServicesTwo
-        ref={about}
-        scrollToSection={scrollToSection}
-        title="About Ash"
-        tagline="" />
       {/* <Portfolio columns="4" layout="wide" filter="true">
         <HeadingSection title="Our Work" />
       </Portfolio> */}

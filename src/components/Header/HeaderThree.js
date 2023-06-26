@@ -61,7 +61,7 @@ const HeaderThree = ({ scrollToSection }) => {
             aria-expanded="false"
           >
             <Scrollspy
-              items={["welcome", "how", "isYou", "boys", "about", "testimonials", "contact"]}
+              items={["welcome", "about", "how", "isYou", "boys", "testimonials", "contact"]}
               currentClassName="active"
               className="nav navbar-nav navbar-right nav-scrollspy-onepage"
               data-in="fadeInLeft"
