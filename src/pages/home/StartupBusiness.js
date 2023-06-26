@@ -97,7 +97,7 @@ const StartupBusiness = () => {
       <OurServicesFour
         ref={boys}
         title="Boys' Club"
-        tagline="Ash is passionate about supporting boys to grow into great men."
+        tagline="Ash is passionate about helping boys to become great men."
         serviceImg={serviceTwoImg}
       />
       {/* <Portfolio columns="4" layout="wide" filter="true">
